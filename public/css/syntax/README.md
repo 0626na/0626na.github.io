@@ -1,6 +1,4 @@
----
-published: false
----
+
 # pygments-css
 
 
