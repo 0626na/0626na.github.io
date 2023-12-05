@@ -10,7 +10,7 @@
 
   <nav class="sidebar-nav">
     <a
-      class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
+      class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}"
       href="{{ '/about' | absolute_url }}"
       >About ME</a
     >
@@ -20,7 +20,9 @@
       >Home</a
     >
 
-    <a class="sidebar-nav-item" href="{{ '/develop' | absolute_url }}"
+    <a
+      class="sidebar-nav-item{% if page.title == 'Develop' %} active{% endif %}"
+      href="{{ '/develop' | absolute_url }}"
       >Develop</a
     >
 

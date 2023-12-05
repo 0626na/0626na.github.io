@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About ME
+title: About
 ---
 
 ## 테스트 중입니다
