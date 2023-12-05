@@ -1,8 +1,8 @@
 # Setup
-title: LOG
+title: "LOG"
 tagline: "기록이 실력으로"
 description: "기록 블로그"
-# url: http://lanyon.getpoole.com
+url: "https://0626na.github.io"
 # baseurl: ""
 paginate: 5
 permalink: pretty

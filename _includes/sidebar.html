@@ -10,9 +10,18 @@
 
   <nav class="sidebar-nav">
     <a
+      class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
+      href="{{ '/about' | absolute_url }}"
+      >About ME</a
+    >
+    <a
       class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}"
       href="{{ '/' | absolute_url }}"
       >Home</a
+    >
+
+    <a class="sidebar-nav-item" href="{{ '/develop' | absolute_url }}"
+      >Develop</a
     >
 
     {% comment %} The code below dynamically generates a sidebar nav of pages
